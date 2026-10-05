@@ -1,0 +1,14 @@
+{
+	"name": "pi-image-pruner",
+	"version": "0.1.1",
+	"description": "Keeps only the N most recent images in outgoing LLM requests; sanitizes undecodable formats (AVIF/WEBP/HEIC) and older images to text placeholders",
+	"type": "module",
+	"keywords": [
+		"pi-package"
+	],
+	"pi": {
+		"extensions": [
+			"./image-pruner.ts"
+		]
+	}
+}

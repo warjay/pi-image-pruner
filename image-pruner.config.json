@@ -1,0 +1,9 @@
+{
+	"enabled": true,
+	"announceOnStart": true,
+	"keepLast": 6,
+	"sanitizeImages": true,
+	"allowedImageFormats": ["image/png", "image/jpeg"],
+	"placeholder": "[older image removed from context to save tokens]",
+	"debug": false
+}
